@@ -1,0 +1,130 @@
+.js-clock {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 40px;
+  color: #031c38;
+  font-family: Monoton;
+  color: white;
+  text-shadow: 10px 10px 10px rgba(0, 12, 46, 0.712);
+}
+h4,
+form {
+  text-align: center;
+}
+.fighting {
+  font-family: Monoton;
+  text-align: center;
+  font-size: 80px;
+  color: rgb(2, 1, 58);
+  text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.849);
+}
+.whatName {
+  border: none;
+  font: 30px "Unica One";
+  color: rgb(1, 18, 49);
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 10px rgba(0, 12, 46, 0.712);
+  margin: 30px;
+  text-shadow: 5px 3px 5px rgba(255, 255, 255, 0.911);
+}
+.whatName::placeholder {
+  color: black;
+  font-weight: bold;
+}
+.whatDo::placeholder {
+  color: black;
+  font-weight: bold;
+}
+.whatDo {
+  border: none;
+  font: 30px "Unica One";
+  color: rgb(1, 18, 49);
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 10px rgba(255, 244, 140, 0.74);
+  margin: 30px;
+  text-shadow: 0px 3px 5px rgba(255, 255, 255, 0.911);
+}
+ul {
+  list-style: none;
+}
+.js-gretting {
+  color: rgb(237, 212, 100);
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Bangers";
+  text-shadow: 5px 3px 10px rgba(0, 12, 46, 0.712);
+  margin: 30px;
+  border-radius: 20px;
+}
+.todoit {
+  text-align: center;
+}
+.js-toDoList {
+  font-family: "Bangers";
+  text-align: center;
+  color: rgb(1, 18, 49);
+  font-size: 35px;
+  padding: 10px;
+  margin: 30px;
+}
+.js-toDoList li button {
+  font-size: 30px;
+  background-color: rgba(0, 0, 255, 0);
+  border: none;
+  padding: 0px 10px;
+}
+.js-weather,
+.weather {
+  text-align: center;
+}
+.workUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: black;
+}
+.clicked {
+  color: #7f8c8d;
+}
+.btn {
+  cursor: pointer;
+}
+.form,
+.gretting {
+  display: none;
+}
+.showing {
+  display: block;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1200px;
+  /*background-size: auto;*/
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+.clock {
+  text-align: center;
+}

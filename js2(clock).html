@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hyoniii's Momentom</title>
+    <link rel="stylesheet" href="index.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Bangers|Monoton|Unica+One&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+    <div class="workUp">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/5-sfG8BV8wU"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div class="fighting">
+      Just Do it!
+    </div>
+    <div class="js-clock">
+      <!--클래스명을 저렇게 한 이유는 js에서도 css에서도 동일한 이름으로 쓰기위해? -->
+      <h1>00:00</h1>
+    </div>
+
+    <form class="js-form form">
+      <!--변수 form-->
+      <input class="whatName" type="text" placeholder="what is your name?" />
+      <!--변수 input-->
+      <!-- HTML Form 은 client의 정보를 입력받는 문서라고 보면 된다.
+  form 태그를 이용하여 각종 입력양식을 통해 입력받아 서버로 전달하는 기능을 담당한다.-->
+    </form>
+    <h4 class="js-gretting gretting"></h4>
+    <!--변수 gretting-->
+    <form class="js-toDoForm">
+      <!-- toDoform-->
+      <input class="whatDo" type="text" placeholder="Write a To Do" />
+      <!-- toDoinput-->
+    </form>
+
+    <ul class="js-toDoList"></ul>
+    <!-- toDolist-->
+    <span class="js-weather"></span>
+    <script src="clock.js"></script>
+    <script src="gretting.js"></script>
+    <script src="todo.js" class="todoit"></script>
+    <script src="bg.js"></script>
+    <script class="weather" src="weather.js"></script>
+  </body>
+</html>
