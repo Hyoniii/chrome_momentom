@@ -28,7 +28,7 @@ const IMG_NUM = 5;
 
 function paintImage(imgNumber) {
   const image = new Image();
-  image.src = `imgs/${imgNumber + 1}.jpg`;
+  image.src = `${imgNumber + 1}.jpg`;
   image.classList.add("bgImage");
   body.prepend(image);
 }
